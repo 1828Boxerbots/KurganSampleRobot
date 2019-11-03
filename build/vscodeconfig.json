@@ -13,23 +13,23 @@
     "systemCMacros": [],
     "systemCArgs": [],
     "allLibFiles": [
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-sources.zip_ac168d8a409781114a55f1146f57f4df",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-sources.zip_ddf016209e70f7a00e667b67e599c75f",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-sources.zip_b5a778a308d2e9296754a60ed6245c1c",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-sources.zip_41b6aa9821778d1168e143eeff887531",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-sources.zip_35f77497d636edf40e6457730c589f42",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-sources.zip_d02459a18ecb7e92cbe1b7e1def99630",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-sources.zip_77141d62b3e263395a4b585628a50d3d"
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-sources.zip_ac168d8a409781114a55f1146f57f4df",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-sources.zip_ddf016209e70f7a00e667b67e599c75f",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-sources.zip_b5a778a308d2e9296754a60ed6245c1c",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-sources.zip_41b6aa9821778d1168e143eeff887531",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-sources.zip_35f77497d636edf40e6457730c589f42",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-sources.zip_d02459a18ecb7e92cbe1b7e1def99630",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-sources.zip_77141d62b3e263395a4b585628a50d3d"
     ],
     "binaries": [
       {
@@ -38,7 +38,7 @@
           {
             "source": {
               "srcDirs": [
-                "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\cpp"
+                "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\cpp"
               ],
               "includes": [
                 "**/*.cpp",
@@ -48,7 +48,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include"
+                "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include"
               ],
               "includes": [],
               "excludes": []
@@ -73,16 +73,16 @@
           }
         ],
         "libHeaders": [
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include"
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include"
         ]
       }
     ],
@@ -90,7 +90,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\cpp"
+            "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\cpp"
           ],
           "includes": [
             "**/*.cpp",
@@ -120,7 +120,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include"
+            "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include"
           ],
           "includes": [],
           "excludes": []
@@ -163,23 +163,23 @@
     "systemCMacros": [],
     "systemCArgs": [],
     "allLibFiles": [
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-sources.zip_ac168d8a409781114a55f1146f57f4df",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-sources.zip_ddf016209e70f7a00e667b67e599c75f",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-sources.zip_b5a778a308d2e9296754a60ed6245c1c",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-sources.zip_41b6aa9821778d1168e143eeff887531",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-sources.zip_35f77497d636edf40e6457730c589f42",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-sources.zip_d02459a18ecb7e92cbe1b7e1def99630",
-      "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-sources.zip_77141d62b3e263395a4b585628a50d3d"
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-sources.zip_ac168d8a409781114a55f1146f57f4df",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-sources.zip_ddf016209e70f7a00e667b67e599c75f",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-sources.zip_b5a778a308d2e9296754a60ed6245c1c",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-sources.zip_41b6aa9821778d1168e143eeff887531",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-sources.zip_35f77497d636edf40e6457730c589f42",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-sources.zip_d02459a18ecb7e92cbe1b7e1def99630",
+      "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-sources.zip_77141d62b3e263395a4b585628a50d3d"
     ],
     "binaries": [
       {
@@ -188,7 +188,7 @@
           {
             "source": {
               "srcDirs": [
-                "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\cpp"
+                "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\cpp"
               ],
               "includes": [
                 "**/*.cpp",
@@ -198,7 +198,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include"
+                "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include"
               ],
               "includes": [],
               "excludes": []
@@ -221,16 +221,16 @@
           }
         ],
         "libHeaders": [
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
-          "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include"
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpilibc-cpp-2019.4.1-headers.zip_b81507b0c50c581f7502538d67c4b01b",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\hal-cpp-2019.4.1-headers.zip_c188c7b3a999a3880106aec59871f632",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\wpiutil-cpp-2019.4.1-headers.zip_5e342f497d78cde8042c25fea7a66506",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\ntcore-cpp-2019.4.1-headers.zip_9555d7c48fd82baf566f02717a6c3cb0",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cscore-cpp-2019.4.1-headers.zip_6f6b3f86ef5e8708aac28c5ba02696ca",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\cameraserver-cpp-2019.4.1-headers.zip_992d6c67f4984f018ec363e9353431cb",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\opencv-cpp-3.4.4-4-headers.zip_ed19d56be47d37c8193b8f0377a9cfe6",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\chipobject-2019.12.1-headers.zip_45012665afb78c4c4816a3a35e8fe8aa",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\build\\tmp\\expandedArchives\\netcomm-2019.12.1-headers.zip_97d07b8af9f28e0504c6dc239ac1f176",
+          "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include"
         ]
       }
     ],
@@ -238,7 +238,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\cpp"
+            "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\cpp"
           ],
           "includes": [
             "**/*.cpp",
@@ -266,7 +266,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\1828 BoxerBots\\Desktop\\KurganSampleRoboted\\src\\main\\include"
+            "C:\\Users\\FIRSTMentor\\Documents\\GitHub\\KurganSampleRobot\\src\\main\\include"
           ],
           "includes": [],
           "excludes": []

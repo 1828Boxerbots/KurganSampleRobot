@@ -41,42 +41,62 @@ void Robot::Autonomous()
 
 }
 
-/**
- * Runs the motors with TANK steering.
- */
+//Tank Drive
+void Robot::DriveTrain()
+{
+  double rightY = m_controller.GetY(GenericHID::kRightHand);
+  double leftY = m_controller.GetY(GenericHID::kLeftHand);
+  //Set Left Motors
+  m_driveOne.Set(leftY);
+  m_driveTwo.Set(leftY);
+  //Set Right Motors
+  m_driveThree.Set(rightY);
+  m_driveFour.Set(rightY);
+}
+
+void Robot::Loader()
+{
+  //Loading
+  bool pullIn = m_controller.GetAButton();
+  if (pullIn){
+    m_pwmLoader.Set(-1.0);
+  }
+  //Ejecting
+  bool eject = m_controller.GetBButton();
+  if (eject){
+    m_pwmLoader.Set(1.0);
+  }
+  //Stationary
+  if((!pullIn && !eject) || (pullIn && eject))
+  {
+    m_pwmLoader.Set(0.0);
+  }
+}
+
+void Robot::Shooter()
+{
+  //Shoot
+  double strength = 1.0;
+  bool shoot = m_controller.GetBumper(GenericHID::kRightHand);
+  if (shoot)
+  {
+    m_shootOne.Set(strength);
+    m_shootTwo.Set(strength);
+    m_shootThree.Set(strength);
+    m_shootFour.Set(strength);
+  }
+}
+
 void Robot::OperatorControl() 
 {
   while (IsOperatorControl() && IsEnabled())
   {
-    //drive 
-      double rightY = m_controller.GetY(GenericHID::kRightHand);
-      double leftY = m_controller.GetY(GenericHID::kLeftHand);
-      //set left side
-        m_driveOne.Set(leftY);
-        m_driveTwo.Set(leftY);
-      //set right side
-        m_driveThree.Set(rightY);
-        m_driveFour.Set(rightY);
-      //set load  
-      bool pullIn = m_controller.GetAButton();
-      if (pullIn){
-        m_pwmLoader.Set(-1.0);
-      }
-      //set eject
-      bool eject = m_controller.GetBButton();
-      if (eject){
-        m_pwmLoader.Set(1.0);
-      }
-      //set non-load
-      if((!pullIn && !eject) || (pullIn && eject)){
-        m_pwmLoader.Set(0.0);
-      }
-      //set shooter
-      double shootValue = m_controller.GetTriggerAxis(GenericHID::kRightHand);
-      m_shootOne.Set(shootValue);
-      m_shootTwo.Set(shootValue);
-      m_shootThree.Set(shootValue);
-      m_shootFour.Set(shootValue);
+     //Drive Function 
+     DriveTrain();
+     //Loader Function  
+     Loader();
+     //Shoot Function
+     Shooter();
   }
 }
 

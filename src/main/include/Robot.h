@@ -8,12 +8,12 @@
 #pragma once
 
 #include <string>
-
 #include <frc/XboxController.h>
 #include <frc/Victor.h>
 #include <frc/SampleRobot.h>
 #include <frc/drive/DifferentialDrive.h>
 #include <frc/smartdashboard/SendableChooser.h>
+#include "RobotMap.h"
 
 /**
  * This is a demo program showing the use of the DifferentialDrive class. The
@@ -36,55 +36,28 @@ class Robot : public frc::SampleRobot {
   void Test() override;
 
  private:
-  //Robot map
 
-    //Drive
-      const int PWM_DRIVE_ONE = 1;
-      const int PWM_DRIVE_TWO = 2;
-      const int PWM_DRIVE_THREE = 3;
-      const int PWM_DRIVE_FOUR = 4;
-    
-    //Shoot 
-      const int PWM_SHOOT_ONE = 5;
-      const int PWM_SHOOT_TWO = 6;
-      const int PWM_SHOOT_THREE = 7;
-      const int PWM_SHOOT_FOUR = 8;
+  //Left Drive Motors
+  frc::Victor m_driveOne{PWM_DRIVE_ONE};
+  frc::Victor m_driveTwo{PWM_DRIVE_TWO};
 
-    //Loader  
-      const int PWM_LOADER = 0;
+  //Right Drive Motors
+  frc::Victor m_driveThree{PWM_DRIVE_THREE};
+  frc::Victor m_driveFour{PWM_DRIVE_FOUR};
 
-    //DIO
-      const int DIO_PHOTO_SENSOR = 9;
+  //Loader System
+  frc::Victor m_pwmLoader{PWM_LOADER};
 
-    //Controller
-      const int USB_XBOX_CONTROLLER = 0;
+  //Shooter System
+  frc::Victor m_shootOne{PWM_SHOOT_ONE};
+  frc::Victor m_shootTwo{PWM_SHOOT_TWO};
+  frc::Victor m_shootThree{PWM_SHOOT_THREE};
+  frc::Victor m_shootFour{PWM_SHOOT_FOUR};
 
-  
-  //Drive Motor
+  //Xbox Controller
+  frc::XboxController m_controller{USB_XBOX_CONTROLLER};
 
-    //Left side
-      frc::Victor m_driveOne{PWM_DRIVE_ONE};
-      frc::Victor m_driveTwo{PWM_DRIVE_TWO};
-    //Right side
-      frc::Victor m_driveThree{PWM_DRIVE_THREE};
-      frc::Victor m_driveFour{PWM_DRIVE_FOUR};
-    //Pull-in System
-      frc::Victor m_pwmLoader{PWM_LOADER};
-    //Shooter System
-      frc::Victor m_shootOne{PWM_SHOOT_ONE};
-      frc::Victor m_shootTwo{PWM_SHOOT_TWO};
-      frc::Victor m_shootThree{PWM_SHOOT_THREE};
-      frc::Victor m_shootFour{PWM_SHOOT_FOUR};
-  //Controller 
-
-    frc::XboxController m_controller{USB_XBOX_CONTROLLER};
-
-  
-
-
-
-
-
-
-
+  void DriveTrain();
+  void Loader();
+  void Shooter();
 };
