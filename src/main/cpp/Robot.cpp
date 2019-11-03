@@ -85,6 +85,13 @@ void Robot::Shooter()
     m_shootThree.Set(strength);
     m_shootFour.Set(strength);
   }
+  if (!shoot)
+  {
+    m_shootOne.Set(0.0);
+    m_shootTwo.Set(0.0);
+    m_shootThree.Set(0.0);
+    m_shootFour.Set(0.0);
+  }
 }
 
 void Robot::OperatorControl() 
