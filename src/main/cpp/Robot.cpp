@@ -12,25 +12,17 @@
 #include <frc/Timer.h>
 #include <frc/smartdashboard/SmartDashboard.h>
 
-Robot::Robot() 
-{
-  // Note SmartDashboard is not initialized here, wait until RobotInit() to make
-  // SmartDashboard calls
+using namespace frc;
+
+Robot::Robot() {
+
 }
 
 void Robot::RobotInit() 
 {
-  m_frontLeftMotor.SetInverted(false);
-  m_backLeftMotor.SetInverted(false);
-  m_frontRightMotor.SetInverted(false);
-  m_backRightMotor.SetInverted(false);
-
-  m_shooterBackRight.SetInverted(false);
-  m_shooterFrontRight.SetInverted(false);
-  m_shooterBackLeft.SetInverted(false);
-  m_shooterFrontLeft.SetInverted(false);
-
-  m_pickUp.SetInverted(true);
+  //left side inverted
+    m_driveOne.SetInverted(true);
+    m_driveTwo.SetInverted(true);
 }
 
 /**
@@ -46,76 +38,45 @@ void Robot::RobotInit()
  */
 void Robot::Autonomous() 
 {
-  
+
 }
 
 /**
- * Runs the motors with arcade steering.
+ * Runs the motors with TANK steering.
  */
 void Robot::OperatorControl() 
 {
-  while (IsOperatorControl() && IsEnabled()) 
+  while (IsOperatorControl() && IsEnabled())
   {
-    // Drive with tank style
-    double leftY = -m_xbox.GetY(GenericHID::kLeftHand);
-    double rightY = m_xbox.GetY(GenericHID::kRightHand);
-
-    m_backLeftMotor.Set(rightY);
-    m_frontLeftMotor.Set(rightY);
-    m_backRightMotor.Set(leftY);
-    m_frontRightMotor.Set(leftY);
-
-    //Shooter
-    bool rightBumper = m_xbox.GetBumper(GenericHID::kRightHand);
-    bool leftBumper = m_xbox.GetBumper(GenericHID::kLeftHand);
-
-    if (((rightBumper == true) && (leftBumper == true)) || ((rightBumper == false) && (leftBumper == false)))
-    {
-      m_shooterBackLeft.Set(0);
-      m_shooterBackRight.Set(0);
-      m_shooterFrontLeft.Set(0);
-      m_shooterFrontRight.Set(0);
-    }
-    else
-    {
-      if (rightBumper == true)
-      {
-        m_shooterBackLeft.Set(0.7);
-        m_shooterBackRight.Set(0.7);
-        m_shooterFrontLeft.Set(0.7);
-        m_shooterFrontRight.Set(0.7);
+    //drive 
+      double rightY = m_controller.GetY(GenericHID::kRightHand);
+      double leftY = m_controller.GetY(GenericHID::kLeftHand);
+      //set left side
+        m_driveOne.Set(leftY);
+        m_driveTwo.Set(leftY);
+      //set right side
+        m_driveThree.Set(rightY);
+        m_driveFour.Set(rightY);
+      //set load  
+      bool pullIn = m_controller.GetAButton();
+      if (pullIn){
+        m_pwmLoader.Set(-1.0);
       }
-      if (leftBumper == true)
-      {
-       m_shooterBackLeft.Set(0.7);
-        m_shooterBackRight.Set(0.7);
-        m_shooterFrontLeft.Set(0.7);
-        m_shooterFrontRight.Set(0.7); 
+      //set eject
+      bool eject = m_controller.GetBButton();
+      if (eject){
+        m_pwmLoader.Set(1.0);
       }
-    }
-
-    //PickUp
-    bool aButton = m_xbox.GetAButton();
-    bool bButton = m_xbox.GetBButton();
-
-    if (((aButton == true) && (bButton == true)) || ((aButton == false) && (bButton == false)))
-    {
-      m_pickUp.Set(0);
-    }
-    else
-    {
-      if (aButton == true)
-      {
-        m_pickUp.Set(1);
+      //set non-load
+      if((!pullIn && !eject) || (pullIn && eject)){
+        m_pwmLoader.Set(0.0);
       }
-      if (bButton == true)
-      {
-        m_pickUp.Set(-1);
-      }
-    }
-
-    // The motors will be updated every 5ms
-    frc::Wait(0.005);
+      //set shooter
+      double shootValue = m_controller.GetTriggerAxis(GenericHID::kRightHand);
+      m_shootOne.Set(shootValue);
+      m_shootTwo.Set(shootValue);
+      m_shootThree.Set(-shootValue);
+      m_shootFour.Set(-shootValue);
   }
 }
 
