@@ -41,14 +41,14 @@ class Robot : public frc::SampleRobot {
     //Drive
       const int PWM_DRIVE_ONE = 1;
       const int PWM_DRIVE_TWO = 2;
-      const int PWM_DRIVE_THREE = 7;
-      const int PWM_DRIVE_FOUR = 8;
+      const int PWM_DRIVE_THREE = 3;
+      const int PWM_DRIVE_FOUR = 4;
     
     //Shoot 
-      const int PWM_SHOOT_TWO = 5;
-      const int PWM_SHOOT_ONE = 6;
-      const int PWM_SHOOT_THREE = 3;
-      const int PWM_SHOOT_FOUR = 4;
+      const int PWM_SHOOT_ONE = 5;
+      const int PWM_SHOOT_TWO = 6;
+      const int PWM_SHOOT_THREE = 7;
+      const int PWM_SHOOT_FOUR = 8;
 
     //Loader  
       const int PWM_LOADER = 0;
@@ -66,9 +66,15 @@ class Robot : public frc::SampleRobot {
       frc::Victor m_driveOne{PWM_DRIVE_ONE};
       frc::Victor m_driveTwo{PWM_DRIVE_TWO};
     //Right side
-      frc::Victor m_driveThree{PWM_SHOOT_THREE};
-      frc::Victor m_driveFour{PWM_SHOOT_FOUR};
-
+      frc::Victor m_driveThree{PWM_DRIVE_THREE};
+      frc::Victor m_driveFour{PWM_DRIVE_FOUR};
+    //Pull-in System
+      frc::Victor m_pwmLoader{PWM_LOADER};
+    //Shooter System
+      frc::Victor m_shootOne{PWM_SHOOT_ONE};
+      frc::Victor m_shootTwo{PWM_SHOOT_TWO};
+      frc::Victor m_shootThree{PWM_SHOOT_THREE};
+      frc::Victor m_shootFour{PWM_SHOOT_FOUR};
   //Controller 
 
     frc::XboxController m_controller{USB_XBOX_CONTROLLER};

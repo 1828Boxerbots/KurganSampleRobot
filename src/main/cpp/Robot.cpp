@@ -42,22 +42,41 @@ void Robot::Autonomous()
 }
 
 /**
- * Runs the motors with arcade steering.
+ * Runs the motors with TANK steering.
  */
 void Robot::OperatorControl() 
 {
   while (IsOperatorControl() && IsEnabled())
   {
     //drive 
-      double X = m_controller.GetX(GenericHID::kLeftHand);
-      double Y = m_controller.GetY(GenericHID::kLeftHand);
+      double rightY = m_controller.GetY(GenericHID::kRightHand);
+      double leftY = m_controller.GetY(GenericHID::kLeftHand);
       //set left side
-        m_driveOne.Set(Y+X);
-        m_driveTwo.Set(Y+X);
-      //set rigtht side
-        m_driveThree.Set(Y-X);
-        m_driveFour.Set(Y-X);
-
+        m_driveOne.Set(leftY);
+        m_driveTwo.Set(leftY);
+      //set right side
+        m_driveThree.Set(rightY);
+        m_driveFour.Set(rightY);
+      //set load  
+      bool pullIn = m_controller.GetAButton();
+      if (pullIn){
+        m_pwmLoader.Set(-1.0);
+      }
+      //set eject
+      bool eject = m_controller.GetBButton();
+      if (eject){
+        m_pwmLoader.Set(1.0);
+      }
+      //set non-load
+      if((!pullIn && !eject) || (pullIn && eject)){
+        m_pwmLoader.Set(0.0);
+      }
+      //set shooter
+      double shootValue = m_controller.GetTriggerAxis(GenericHID::kRightHand);
+      m_shootOne.Set(shootValue);
+      m_shootTwo.Set(shootValue);
+      m_shootThree.Set(shootValue);
+      m_shootFour.Set(shootValue);
   }
 }
 
