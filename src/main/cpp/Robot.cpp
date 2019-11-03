@@ -75,8 +75,8 @@ void Robot::OperatorControl()
       double shootValue = m_controller.GetTriggerAxis(GenericHID::kRightHand);
       m_shootOne.Set(shootValue);
       m_shootTwo.Set(shootValue);
-      m_shootThree.Set(-shootValue);
-      m_shootFour.Set(-shootValue);
+      m_shootThree.Set(shootValue);
+      m_shootFour.Set(shootValue);
   }
 }
 
